@@ -8,7 +8,12 @@ app.get("/ping", function (req, res) {
   return res.send("pong");
 });
 
+//ignore request when the url contains 'favicon.ico' 
+
 app.get("/", function (req, res) {
+ 
+  if(request.url!='/favicon.ico'){ 
+  }
   res.sendFile(path.join(__dirname, "build", "index.html"));
 });
 
