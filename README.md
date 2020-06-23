@@ -1,5 +1,3 @@
-# NSCOVID19
-Web Development Assignment 2
 # CSCI5709 / Assignment 2 / NSCOVID19
 
 
@@ -157,7 +155,9 @@ The carousel slides to a different slide automatically.
  
 
 Code used from React-bootstrap: 
+
 ```
+
 <Carousel>
   <Carousel.Item>
     <img
@@ -645,7 +645,6 @@ Code used from React-Bootstrap :
   </Card>
 </CardColumns>
 
-
 ```
 
 The code was modified by adding another Card Column component with Card Components inside. 
@@ -1095,8 +1094,8 @@ Modified code by the author:
   </Col>
 </Row>
   
-  
 </Container>
+
 
 ```
 
