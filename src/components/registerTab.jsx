@@ -1,10 +1,6 @@
 import React, { Component } from 'react';
 import NavBar from './navbar';
-import Slides from './carousel';
-import SignIn from './signin';
 import Register from './register';
-import MapNS from './map';
-import Updates from './updates';
 
 class registerTab extends Component {
     state = {  }
@@ -15,19 +11,6 @@ class registerTab extends Component {
               {/* NAVBAR */}
               <div><NavBar/></div>
 
-              {/* CAROUSEL */}
-              {/* <div style={{height:"100%", width:"100%"}}>
-              <Slides/>
-              </div>    */}
-
-
-              {/* SIGN IN */}
-              {/* <div alignContent="center" 
-                  style={{alignSelf:"center", height:"100%", 
-                          position:"center"}}>
-                            <SignIn style={{alignSelf:"center", 
-                                    position:"center"}}/>
-                </div> */}
               
 
                 {/* REGISTER */}
@@ -38,18 +21,7 @@ class registerTab extends Component {
                                     position:"center"}}/>
                 </div>
 
-                {/* DASHBOARD */}
-
-                {/* MAP */}
-                {/* <div><MapNS/></div> */}
-
-                {/* LATEST UPDATES  */}
-                {/* <div>
-                  <Updates/>
-                </div> */}
-
-                {/* VOLUNTEER */}
-              
+                
               </div>
          );
     }

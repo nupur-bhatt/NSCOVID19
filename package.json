@@ -5,17 +5,19 @@
   "dependencies": {
     "bootstrap": "^4.5.0",
     "express": "^4.17.1",
+    "formik": "^2.0.1",
     "mapbox-gl": "^1.11.0",
     "react": "^16.13.1",
     "react-bootstrap": "^1.0.1",
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.2.0",
     "react-scripts": "^3.4.1",
-    "serve": "^11.3.2"
+    "serve": "^11.3.2",
+    "yup": "^0.24.1"
   },
   "devDependencies": {},
   "scripts": {
-    "start": "serve -s build",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
