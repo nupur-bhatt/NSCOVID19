@@ -30,31 +30,31 @@ const schema = yup.object({
           errors,
         }) => (
           <Form noValidate onSubmit={handleSubmit} style={{height:"600px", width:"300px"}}>
-   
+             
               <Form.Group  controlId="validationFormik01">
-                
-                <Form.Control
-                  type="email"
-                  name="email"
-                  placeholder="Email"
-                  value={values.email}
-                  onChange={handleChange}
-                  isInvalid={!!errors.email}
-                  style={{backgroundColor:"#0e0e0e", 
-                                boxShadow:"none", color:"#5bc0de", 
-                                fontFamily:"Roboto Thick, sans-serif", 
-                                fontWeight:"200",
-                                borderColor:"#17a2b8"}}
-                />
-                <Form.Control.Feedback type="invalid" 
-                              style={{fontFamily:"Roboto Thick, sans-serif", 
-                                fontWeight:"200", color:"#17a2b8"}}>
-                                    {errors.email}</Form.Control.Feedback>
-              </Form.Group>
+                            
+                            <Form.Control
+                              type="email"
+                              name="email"
+                              placeholder="Email"
+                              value={values.email}
+                              onChange={handleChange}
+                              isInvalid={!!errors.email}
+                              style={{backgroundColor:"#0e0e0e", 
+                                            boxShadow:"none", color:"#5bc0de", 
+                                            fontFamily:"Roboto Thick, sans-serif", 
+                                            fontWeight:"200",
+                                            borderColor:"#17a2b8"}}
+                            />
+                            <Form.Control.Feedback type="invalid" 
+                                          style={{fontFamily:"Roboto Thick, sans-serif", 
+                                            fontWeight:"200", color:"#17a2b8"}}>
+                                                {errors.email}</Form.Control.Feedback>
+                          </Form.Group>
 
             
-            
               <Form.Group  controlId="validationFormik03">
+                
                 <Form.Control
                   type="password"
                   placeholder="Password"
@@ -68,6 +68,7 @@ const schema = yup.object({
                                 fontWeight:"200",
                                 borderColor:"#17a2b8"}}
                 />
+                
   
                 <Form.Control.Feedback type="invalid" style={{fontFamily:"Roboto Thick, sans-serif", 
                                 fontWeight:"200", color:"#17a2b8"}}>

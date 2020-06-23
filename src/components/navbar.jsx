@@ -18,6 +18,8 @@ class NavBar extends Component {
                 <Nav.Link as={Link} to="/dashboard" style={{fontFamily:"Roboto Thick, sans-serif", fontWeight:"200", paddingRight:"20px"}}>Dashboard</Nav.Link>
                 <Nav.Link as={Link} to="/latestupdates" href="#updates" style={{fontFamily:"Roboto Thick, sans-serif", fontWeight:"200", paddingRight:"20px"}} >Latest Updates</Nav.Link>
                 <Nav.Link href="#volunteer" style={{fontFamily:"Roboto Thick, sans-serif", fontWeight:"200", paddingRight:"20px"}}>Volunteer</Nav.Link>
+                <Nav.Link href="#seekassistance" style={{fontFamily:"Roboto Thick, sans-serif", fontWeight:"200", paddingRight:"20px"}}>Seek Assistance</Nav.Link>
+                <Nav.Link href="#resources" style={{fontFamily:"Roboto Thick, sans-serif", fontWeight:"200", paddingRight:"20px"}}>Resources</Nav.Link>
                 </Nav>
                 <Form inline style={{marginRight:"30px"}}>
                 <Button as={Link} to="/signin" href="#signin" variant="outline-info" style={{fontFamily:"Roboto Thick, sans-serif", fontWeight:"200", border:"transparent", padding:"11px"}}>Sign In</Button>

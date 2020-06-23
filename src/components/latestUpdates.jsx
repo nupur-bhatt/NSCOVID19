@@ -6,15 +6,14 @@ class Home extends Component {
     state = {  }
     render() { 
         return ( 
-            <div alignContent="center" style={{position:"static"}}>
+            <div alignContent="center" >
               
               {/* NAVBAR */}
               <div><NavBar/></div>
-
               
                 {/* LATEST UPDATES  */}
-                <div>
-                  <Updates/>
+                <div width="100%">
+                  <Updates width="100%"/>
                 </div>
 
                
