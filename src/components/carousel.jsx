@@ -55,9 +55,9 @@ class Slides extends Component {
             <Carousel.Item style={{width:"100%", height:"700px"}}>
                 <img
                 className="d-block w-100"
-                src="/virus.jpg"
+                src="/stats.jpg"
                 alt="Third slide"
-                style={{opacity:0.35, objectFit:"cover", width:"100%", height:"700px"}}/>
+                style={{opacity:0.2, objectFit:"cover", width:"100%", height:"700px"}}/>
 
                 <Carousel.Caption style={{top:"30px"}}>
                 <h1 style={{fontFamily:"Yanone Kaffeesatz, sans-serif", 
@@ -96,9 +96,9 @@ class Slides extends Component {
             <Carousel.Item style={{width:"100%", height:"700px"}}>
                 <img
                 className="d-block w-100"
-                src="/virus.jpg"
+                src="/map.jpg"
                 alt="Fourth slide"
-                style={{opacity:0.35, objectFit:"cover", width:"100%", height:"700px"}}/>
+                style={{opacity:0.4, objectFit:"cover", width:"100%", height:"700px"}}/>
 
                 <Carousel.Caption style={{top:"30px"}}>
                 <h1 style={{fontFamily:"Yanone Kaffeesatz, sans-serif", 
@@ -106,6 +106,26 @@ class Slides extends Component {
                         textAlign:'center', color:"#FFFF", 
                         lineHeight:"1em"}}>
                             INTERACT WITH MAPS SHOWING COVID-19 CASES
+                </h1>
+                <p style={{fontFamily:"Lato, sans-serif", 
+                            alignContent:'center', fontSize:"1em", 
+                            textAlign:'center', color:"#FFFF"}}>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                </Carousel.Caption>
+            </Carousel.Item>
+
+            <Carousel.Item style={{width:"100%", height:"700px"}}>
+                <img
+                className="d-block w-100"
+                src="/resources.jpg"
+                alt="Fourth slide"
+                style={{opacity:0.25, objectFit:"cover", width:"100%", height:"700px"}}/>
+
+                <Carousel.Caption style={{top:"30px"}}>
+                <h1 style={{fontFamily:"Yanone Kaffeesatz, sans-serif", 
+                        alignContent:'center', fontSize:"3em", 
+                        textAlign:'center', color:"#FFFF", 
+                        lineHeight:"1em"}}>
+                            EXPLORE RESOURCES AVAILABLE NEAR YOU
                 </h1>
                 <p style={{fontFamily:"Lato, sans-serif", 
                             alignContent:'center', fontSize:"1em", 

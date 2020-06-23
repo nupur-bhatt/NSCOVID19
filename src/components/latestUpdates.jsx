@@ -6,7 +6,7 @@ class Home extends Component {
     state = {  }
     render() { 
         return ( 
-            <div alignContent="center" >
+            <div >
               
               {/* NAVBAR */}
               <div><NavBar/></div>
